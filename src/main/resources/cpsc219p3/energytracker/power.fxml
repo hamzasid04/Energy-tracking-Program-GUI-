@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cpsc219p3.energytracker.PowerController">
+   <children>
+      <HBox layoutX="-6.0" prefHeight="54.0" prefWidth="215.0">
+         <children>
+            <Label prefHeight="26.0" prefWidth="213.0" text="Enter power details">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="6.0" layoutY="61.0" prefHeight="324.0" prefWidth="521.0">
+         <children>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Fridge Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="fridge_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Microwave Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="microwave_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Tv Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="80.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="tv_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Dishwasher Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="dishwasher_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Lights Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="light_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Washer(Laundry) Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="washer_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="280.0" text="Enter Dryer Power in watts">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="80.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="dryer_power" prefHeight="25.0" prefWidth="104.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="414.0" />
+            <HBox alignment="TOP_RIGHT" prefHeight="33.0" prefWidth="521.0">
+               <children>
+                  <Button fx:id="return_button" mnemonicParsing="false" onAction="#return_button" text="Return">
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#enter_utility_button" prefHeight="25.0" prefWidth="68.0" text="Enter ">
+                     <HBox.margin>
+                        <Insets right="100.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

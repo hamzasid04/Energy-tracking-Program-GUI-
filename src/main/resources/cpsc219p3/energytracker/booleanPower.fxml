@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="342.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cpsc219p3.energytracker.BooleanController">
+   <children>
+      <Label layoutX="27.0" layoutY="101.0" text="Does your home have Air Conditioning?" />
+      <Button layoutX="342.0" layoutY="96.0" mnemonicParsing="false" onAction="#yesAC" text="Yes" />
+      <Button layoutX="400.0" layoutY="96.0" mnemonicParsing="false" onAction="#noAc" prefHeight="26.0" prefWidth="38.0" text="No" />
+      <Label layoutX="27.0" layoutY="165.0" text="Do you have an electric heater?" />
+      <Button layoutX="342.0" layoutY="160.0" mnemonicParsing="false" onAction="#yesElectric" text="Yes" />
+      <Button layoutX="400.0" layoutY="160.0" mnemonicParsing="false" onAction="#noElectric" prefHeight="26.0" prefWidth="38.0" text="No" />
+      <Label layoutX="27.0" layoutY="235.0" text="Have you installed solar at your house?" />
+      <Button layoutX="342.0" layoutY="230.0" mnemonicParsing="false" onAction="#yesSolar" text="Yes" />
+      <Button layoutX="400.0" layoutY="230.0" mnemonicParsing="false" onAction="#noSolar" prefHeight="26.0" prefWidth="38.0" text="No" />
+      <Separator layoutX="33.0" layoutY="136.0" prefHeight="4.0" prefWidth="409.0" />
+      <Separator layoutX="29.0" layoutY="203.0" prefHeight="4.0" prefWidth="409.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9dfe4" height="46.0" layoutX="27.0" layoutY="21.0" stroke="#a7c6e1" strokeType="INSIDE" width="322.0" />
+      <Label layoutX="39.0" layoutY="31.0" prefHeight="25.0" prefWidth="279.0" text="AC, Heater and Solar Usage">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="205.0" layoutY="294.0" mnemonicParsing="false" onAction="#submitAnswers" text="Submit" />
+   </children>
+</AnchorPane>
